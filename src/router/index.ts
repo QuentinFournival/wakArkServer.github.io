@@ -24,7 +24,6 @@ const history = isServer
     : createWebHistory(import.meta.env.BASE_URL);
 
 const routerOptions = {
-    history: history,
     routes,
 };
 
